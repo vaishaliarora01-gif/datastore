@@ -10,7 +10,7 @@ pipeline{
             steps{
                 sh """
                      echo "----------------Building application------------"
-                     mvn clean install
+                     ./mvnw clean install
                      echo "----------------successfully--------------------"
                    
                 """
