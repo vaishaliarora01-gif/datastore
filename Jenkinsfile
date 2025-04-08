@@ -25,5 +25,10 @@ pipeline{
                 """
             }
         }
+        stage("acceptance"){
+            steps{
+                input 'Proceed'
+            }
+        }
     }
 }
