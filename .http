@@ -1,0 +1,11 @@
+### POST student
+POST http://localhost:8080/student/post
+Content-Type: application/json
+test: hello-header
+
+{
+  "name": "aadu",
+  "age": 22
+}
+
+
